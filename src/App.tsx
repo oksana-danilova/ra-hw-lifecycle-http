@@ -4,7 +4,6 @@ import SelectTask from './components/selectTask/SelectTask';
 import './App.css';
 import Watches from './components/watches/Watches';
 import Crud from './components/crud/Crud';
-import React from 'react';
 
 function App() {
   let [ curTask, setCurTask ] = useState('CHAT');

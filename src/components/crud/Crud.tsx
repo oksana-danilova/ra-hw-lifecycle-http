@@ -7,7 +7,6 @@ import Notes from "./Notes";
 import CrudForm from "./CrudForm";
 import axios from "axios";
 import { Note } from "./models";
-import React from "react";
 
 export default function Crud() {
     let [notes, setNotes] = useState<Note[]>([]);
