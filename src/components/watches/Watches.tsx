@@ -49,7 +49,7 @@ export default function Watches() {
           <p>Временная зона</p>
           <input
             className="watches-input"
-            type="text"
+            type="number"
             value={timeZone}
             onChange={(event) => setTimeZone(event.target.value)}
           />
